@@ -15,8 +15,13 @@ Sürüm 1.0.0 yerelde hazır; GitHub Pages'e ilk yayın kullanıcı onayı bekli
   (emekli polis denmez), BIST sitede yok, kişisel site yeteneği öne çıkar,
   freelance/uzaktan çalışma vurgusu, şirket/fatura yok.
 - `tools/kontrol.py` yazıldı; negatif denemeyle kişisel veri yakaladığı doğrulandı.
+- Hakkımda: fotoğraf + bisiklet hobileri (commit sonrası).
 - Tarayıcı kontrolü: 375 px (yatay kayma yok, menü çalışıyor), masaüstü 1366 px,
   açık ve koyu tema.
+
+## Commitler
+- 1fb2b16 ilk sürüm 1.0.0
+- hobiler: bisiklet eklendi
 
 ## Son kontrol
 `python tools/kontrol.py` → GEÇTİ, 0 hata (2026-10-04).
