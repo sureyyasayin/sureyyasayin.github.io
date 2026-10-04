@@ -30,8 +30,8 @@ yapıp PARA KAZANMAK (kullanıcı kararı 2026-10-04).
 * Kişi: KAMUDAN EMEKLİ (Emniyet Genel Müdürlüğü, 1995 – emeklilik). Tanıtım
   dilinde "emekli polis" DENMEZ, "kamudan emekli" denir (kullanıcı kararı
   2026-10-04). Hakkımda'da görev geçmişi GENEL yazılır ("kamuda bilgi
-  teknolojileri yöneticisi"); birim/rütbe adı verilmez. KGYS ve EDS
-  projelerinin Tekirdağ Çerkezköy Belediyesi ile ORTAKLAŞA yapıldığı belirtilir.
+  teknolojileri yöneticisi"); birim/rütbe adı verilmez. KGYS, PTS ve EDS
+  projelerinin (üçü de) Tekirdağ Çerkezköy Belediyesi ile ORTAKLAŞA yapıldığı belirtilir.
   25 yılı aşkın kamu bilgi teknolojileri deneyimi; son görev Çerkezköy
   İlçe Emniyet Müdürlüğü Bilgi Teknolojileri Büro Amiri, KGYS-PTS-EDS
   proje sorumlusu. Kaynak: `cv/` klasörü.
@@ -133,6 +133,8 @@ bilgisi, ev/MERNİS adresi, eş ve çocuk bilgileri, kan grubu, telefon).
 * Sitede ASLA yer almaz: T.C. kimlik no, sicil, ev adresi, aile/çocuk
   bilgisi, doğum tarihi (gün/ay), silah, kan grubu, sağlık,
   kurumsal `egm.gov.tr` e-postası.
+* Konum yalnız şehir düzeyinde ("Çerkezköy / Tekirdağ"); EV ADRESİ ASLA
+  yazılmaz (kullanıcı kararı 2026-10-04).
 * Cep telefonu: kullanıcı kararı 2026-10-04 ile sitede WhatsApp düğmesi +
   `tel:` bağlantısı olarak YER ALIR; YALNIZCA `site.js` → `TELEFON`
   dizisinde parçalı durur, HTML'de düz metin olmaz (kontrol aracı denetler).

@@ -1,5 +1,10 @@
 # Sürüm Notları
 
+## [1.1.2] - 2026-10-04
+
+### Düzeltildi
+- Plaka Tanıma Sistemi (PTS) de belediye ile ortak projeler arasına alındı (KGYS, PTS, EDS).
+
 ## [1.1.1] - 2026-10-04
 
 ### Düzeltildi
