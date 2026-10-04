@@ -1,5 +1,10 @@
 # Sürüm Notları
 
+## [1.1.3] - 2026-10-04
+
+### Değişti
+- Konum yalnızca ilçe düzeyinde "Saray / Tekirdağ" olarak gösteriliyor; ev adresi yazılmaz.
+
 ## [1.1.2] - 2026-10-04
 
 ### Düzeltildi
@@ -15,7 +20,7 @@
 ### Eklendi
 - Hakkımda bölümüne portre fotoğrafı.
 - İletişimde WhatsApp düğmesi ve tıklanınca arayan telefon bağlantısı (numara spam
-  botlarından gizlenir). Konum: Çerkezköy / Tekirdağ.
+  botlarından gizlenir).
 - Hobiler: fotoğraf ve bisiklet.
 
 ### Değişti

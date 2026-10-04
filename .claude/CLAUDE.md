@@ -133,8 +133,9 @@ bilgisi, ev/MERNİS adresi, eş ve çocuk bilgileri, kan grubu, telefon).
 * Sitede ASLA yer almaz: T.C. kimlik no, sicil, ev adresi, aile/çocuk
   bilgisi, doğum tarihi (gün/ay), silah, kan grubu, sağlık,
   kurumsal `egm.gov.tr` e-postası.
-* Konum yalnız şehir düzeyinde ("Çerkezköy / Tekirdağ"); EV ADRESİ ASLA
-  yazılmaz (kullanıcı kararı 2026-10-04).
+* Konum YALNIZCA "Saray / Tekirdağ" (ilçe düzeyi) yazılır; EV ADRESİ
+  (mahalle, cadde, site, kapı no) ASLA yazılmaz (kullanıcı kararı 2026-10-04).
+  Çerkezköy yalnız proje/ödül bilgisinde geçer, yaşanılan yer olarak yazılmaz.
 * Cep telefonu: kullanıcı kararı 2026-10-04 ile sitede WhatsApp düğmesi +
   `tel:` bağlantısı olarak YER ALIR; YALNIZCA `site.js` → `TELEFON`
   dizisinde parçalı durur, HTML'de düz metin olmaz (kontrol aracı denetler).
