@@ -27,7 +27,7 @@ yapıp PARA KAZANMAK (kullanıcı kararı 2026-10-04).
   test edilmiş, güvenli bir web yazılımıdır. Sitede "yapay zekâ destekli
   siteler yapıyorum" DENMEZ; "yapay zekâyla birlikte geliştiriyorum,
   her satırı test edip sorumluluğunu ben alıyorum" çizgisi korunur.
-* Kişi: KAMUDAN EMEKLİ (Emniyet Genel Müdürlüğü, 1995 – emeklilik). Tanıtım
+* Kişi: KAMUDAN EMEKLİ (Emniyet Genel Müdürlüğü, 1995 – 2021, 26 yıl). Tanıtım
   dilinde "emekli polis" DENMEZ, "kamudan emekli" denir (kullanıcı kararı
   2026-10-04). Hakkımda'da görev geçmişi GENEL yazılır ("kamuda bilgi
   teknolojileri yöneticisi"); birim/rütbe adı verilmez. KGYS, PTS ve EDS

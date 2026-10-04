@@ -1,5 +1,10 @@
 # Sürüm Notları
 
+## [1.1.4] - 2026-10-04
+
+### Eklendi
+- Hakkımda: emeklilik yılı (2021) ve kamuda geçen 26 yıl.
+
 ## [1.1.3] - 2026-10-04
 
 ### Değişti

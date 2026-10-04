@@ -1,7 +1,7 @@
 # İlerleme
 
 ## Aktif aşama
-Yayında: https://sureyyasayin.github.io (GitHub Pages, main /docs). Sürüm 1.1.3.
+Yayında: https://sureyyasayin.github.io (GitHub Pages, main /docs). Sürüm 1.1.4.
 
 ## Tamamlananlar (2026-10-04)
 - Kürse CLAUDE.md'si bu projeye uyarlandı (`.claude/CLAUDE.md`).
@@ -26,13 +26,14 @@ Yayında: https://sureyyasayin.github.io (GitHub Pages, main /docs). Sürüm 1.1
 - 1.1.0: portre, telefon/WhatsApp, görev geçmişi genelleştirildi
 - 1.1.1–1.1.2: KGYS, PTS, EDS belediye ile ortak projeler
 - 1.1.3: konum Saray / Tekirdağ (ev adresi yok), adres denetimi güçlendirildi
+- 1.1.4: emeklilik yılı 2021
 - Pages kaynağı /docs olarak düzeltildi; canlı sitede 1.1.3 doğrulandı (WhatsApp, e-posta, foto, taşma yok)
 
 ## Son kontrol
 `python tools/kontrol.py` → GEÇTİ, 0 hata (2026-10-04).
 
 ## Kullanıcıdan beklenenler
-1. Emeklilik yılı (kullanıcı yazılmasını istedi, yılı henüz bildirmedi).
+Yok.
 
 ## Sırada
 - Yayından sonra: Lighthouse mobil ölçümü, WhatsApp'ta paylaşım kartı denemesi.
