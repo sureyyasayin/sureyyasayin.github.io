@@ -20,6 +20,9 @@ bağımsızdır: o sunucu kapansa bile bu site açık kalır.
 3. Depo → **Settings → Pages**:
    - Source: **Deploy from a branch**
    - Branch: **main**, klasör: **/docs** → Save
+   DİKKAT: GitHub ilk push'ta Pages'i kendiliğinden `/ (root)` ile açabiliyor;
+   o durumda site yerine README görünür. Klasörün **/docs** olduğunu ve
+   "GitHub Pages source saved" yazısını mutlaka kontrol et (2026-10-04'te yaşandı).
 4. 1–2 dakika sonra <https://sureyyasayin.github.io> açılır.
    "Enforce HTTPS" kutusu işaretli olmalı.
 
