@@ -125,7 +125,7 @@
       <article class="kart">
         <h3>Sunucu, yedek ve güvenlik</h3>
         <p>Docker ile kurulum, otomatik HTTPS, şifreli günlük yedek ve geri yükleme, güvenlik duvarı, ağ altyapısı. Ücretsiz bulut sunucusunda birden fazla siteyi bir arada yayınlama.</p>
-        <p class="kanit">Örnek: iki proje aynı Oracle Cloud sunucusunda</p>
+        <p class="kanit">Örnek: iki proje aynı Oracle Cloud sunucusunda · <a href="#docker">Docker nedir?</a></p>
       </article>
       <article class="kart">
         <h3>Veri analizi ve makine öğrenmesi</h3>
@@ -196,7 +196,25 @@
   </div>
 </section>
 
-<section id="hakkimda" class="bolum bolum-koyu">
+<section id="docker" class="bolum bolum-koyu">
+  <div class="kap">
+    <h2>Docker nedir, size ne kazandırır?</h2>
+    <div class="docker-giris">
+      <p>Yazdığım programları <strong>Docker</strong> ile kuruyorum. Kısaca anlatmak gerekirse: program, çalışması için gereken her şeyle birlikte (veritabanı, ayarlar, yardımcı parçalar) ayrı ayrı “kutulara”, yani <strong>konteynerlere</strong> konur.</p>
+      <p>Gemilerdeki standart yük konteynerlerini düşünün: içinde ne olursa olsun her limanda, her vinçte aynı şekilde taşınır. Docker da yazılım için bunu yapar.</p>
+    </div>
+    <div class="kartlar kartlar-uc">
+      <article class="kart"><h3>Her yerde aynı çalışır</h3><p>Benim bilgisayarımda nasıl çalışıyorsa sunucuda da öyle çalışır. “Bende çalışıyordu, sunucuda bozuldu” sorunu ortadan kalkar.</p></article>
+      <article class="kart"><h3>Hafif ve masrafsız</h3><p>Sanal makine gibi her program için ayrı bir işletim sistemi kurulmaz; bu yüzden çok daha az bellek ve disk harcar. Kürse Köyü ve PASYS aynı ücretsiz sunucuda birlikte çalışıyor.</p></article>
+      <article class="kart"><h3>Dakikalar içinde kurulum</h3><p>Site, veritabanı, yedekleme ve zamanlanmış işler tek bir komutla birlikte ayağa kalkar. Kurulum için günlerce uğraşmak gerekmez.</p></article>
+      <article class="kart"><h3>Kolay taşınır, bağımlılık yok</h3><p>Sunucu ya da firma değiştirmek istediğinizde sistem tüm verisiyle birkaç adımda yeni yerine taşınır. Hiçbir firmaya mahkûm kalmazsınız.</p></article>
+      <article class="kart"><h3>Güvenli ayrım</h3><p>Her parça kendi kutusunda çalışır; birinde sorun çıkarsa diğerlerine sıçramaz. Veritabanı internete hiç açılmaz, dışarıya yalnızca sitenin kapısı açıktır.</p></article>
+      <article class="kart"><h3>Kendini toparlar</h3><p>Bir parça takılırsa otomatik olarak yeniden başlatılır. Bir güncelleme sorun çıkarırsa önceki sürüme hızla geri dönülür.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="hakkimda" class="bolum">
   <div class="kap hakkimda">
     <div>
       <div class="kimlik">
@@ -270,7 +288,7 @@
 <footer class="alt">
   <div class="kap alt-ic">
     <p>© 2026 Süreyya Sayın. Tüm hakları saklıdır.</p>
-    <p>Bu site çerez kullanmaz, ziyaretçi bilgisi toplamaz. <span class="surum" data-surum="1.1.4">Sürüm 1.1.4</span></p>
+    <p>Bu site çerez kullanmaz, ziyaretçi bilgisi toplamaz. <span class="surum" data-surum="1.2.0">Sürüm 1.2.0</span></p>
   </div>
 </footer>
 </body>

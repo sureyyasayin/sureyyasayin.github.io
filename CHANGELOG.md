@@ -1,5 +1,12 @@
 # Sürüm Notları
 
+## [1.2.0] - 2026-10-04
+
+### Eklendi
+- "Docker nedir, size ne kazandırır?" bölümü: konteyner mantığı yük gemisi örneğiyle,
+  altı fayda sade dille (her yerde aynı çalışma, hafiflik, hızlı kurulum, kolay taşıma,
+  güvenli ayrım, kendini toparlama). "Sunucu, yedek ve güvenlik" kartından bağlantı.
+
 ## [1.1.4] - 2026-10-04
 
 ### Eklendi

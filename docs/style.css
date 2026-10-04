@@ -153,6 +153,11 @@ h1 { font-size: clamp(2rem, 6vw, 3.4rem); margin-top: .4em; }
 
 .iletisim-404 { text-align: center; max-width: 640px; }
 
+/* Docker */
+.docker-giris { max-width: 780px; margin-bottom: 28px; font-size: 1.1rem; color: var(--metin-2); }
+.docker-giris strong { color: var(--metin); }
+.hakkimda .etiketler li { background: var(--zemin-2); }
+
 /* Hakkımda */
 .hakkimda { display: grid; gap: 40px; }
 @media (min-width: 900px) { .hakkimda { grid-template-columns: 1.2fr 1fr; gap: 56px; } }

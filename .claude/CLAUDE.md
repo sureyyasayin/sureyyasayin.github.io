@@ -40,7 +40,10 @@ yapıp PARA KAZANMAK (kullanıcı kararı 2026-10-04).
 * Hedef kitle: köy/mahalle/dernekler, apartman ve site yöneticileri,
   esnaf, küçük kurumlar — çoğu telefondan, WhatsApp linkinden gelir.
 * Sayfa yapısı (tek sayfa): Giriş → Neler yapabilirim (her kart bir
-  projeye bağlı) → Projelerim → Nasıl çalışırım → Hakkımda (eğitim,
+  projeye bağlı) → Projelerim → Nasıl çalışırım → Docker nedir (sade
+  dille faydalar; "en iyi sanallaştırma" gibi teknik olarak yanlış /
+  abartılı ifade YAZILMAZ — Docker sanal makine değil konteynerdir)
+  → Hakkımda (eğitim,
   kurslar, ödüller) → İletişim (e-posta, WhatsApp isteğe bağlı, sosyal
   medya: GitHub, YouTube, Instagram, Facebook).
 
