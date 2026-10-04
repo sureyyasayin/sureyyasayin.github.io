@@ -32,6 +32,8 @@ YASAK_DESENLER = [
     (r"(?i)sicil(i|\s*no)?\s*[:=]", "sicil numarası"),
     (r"(?i)kan\s+grubu|silah[ıi]\s*:", "hassas kişisel bilgi"),
     (r"(?i)ücretsiz|bedava|masrafsız", "ücret/ücretsiz dili (kullanıcı kararı 2026-10-04: yazılmaz)"),
+    (r"(?i)torrent|sonarr|radarr|prowlarr|bazarr|jellyseerr|\biptv\b|korsan", "yasal risk: telifli içerik indirme izlenimi (kullanıcı kararı 2026-10-04: yazılmaz)"),
+    (r"\b(?:192\.168|10\.\d{1,3}|172\.(?:1[6-9]|2\d|3[01]))\.\d{1,3}\.\d{1,3}\b", "yerel ağ IP adresi"),
     (r"(?i)\bBIST\b|bist-ai", "BIST projesi (kullanıcı kararı 2026-10-04: sitede yer almaz)"),
 ]
 DIS_KAYNAK = re.compile(

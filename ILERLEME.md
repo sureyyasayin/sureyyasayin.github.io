@@ -1,7 +1,7 @@
 # İlerleme
 
 ## Aktif aşama
-Yayında: https://sureyyasayin.github.io (GitHub Pages, main /docs). Sürüm 1.3.0.
+Yayında: https://sureyyasayin.github.io (GitHub Pages, main /docs). Sürüm 1.4.0.
 
 ## Tamamlananlar (2026-10-04)
 - Kürse CLAUDE.md'si bu projeye uyarlandı (`.claude/CLAUDE.md`).
@@ -30,6 +30,7 @@ Yayında: https://sureyyasayin.github.io (GitHub Pages, main /docs). Sürüm 1.3
 - 1.2.0: Docker nedir bölümü (sade dille 6 fayda)
 - 1.2.1: "ücretsiz sunucu" ifadeleri kaldırıldı, kontrol aracına kural
 - 1.3.0: teknolojiler gruplandı (iki projeden doğrulanmış liste), Docker öne çıktı; css/js ?v= önbellek kırıcı
+- 1.4.0: akıllı ev ve ev sunucuları (Home Assistant, Nextcloud, Pi-hole, Jellyfin); torrent/IPTV ve yerel IP yasak kuralı
 - Pages kaynağı /docs olarak düzeltildi; canlı sitede 1.1.3 doğrulandı (WhatsApp, e-posta, foto, taşma yok)
 
 ## Son kontrol

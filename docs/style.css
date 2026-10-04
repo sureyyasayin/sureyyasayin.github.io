@@ -149,6 +149,12 @@ h1 { font-size: clamp(2rem, 6vw, 3.4rem); margin-top: .4em; }
 .proje h3 { font-size: 1.4rem; }
 .ozellik { padding-left: 1.2em; margin: 0 0 1em; color: var(--metin-2); }
 .ozellik li { margin-bottom: .3em; }
+.proje-gorselsiz { grid-template-columns: 1fr; }
+.alt-projeler { display: grid; gap: 14px; margin: 0 0 1.2em; }
+@media (min-width: 760px) { .alt-projeler { grid-template-columns: repeat(2, 1fr); } }
+.alt-projeler > div { background: var(--zemin-2); border: 1px solid var(--cizgi); border-radius: 12px; padding: 16px; }
+.alt-projeler h4 { margin: 0 0 .4em; font-size: 1.05rem; }
+.alt-projeler p { margin: 0; color: var(--metin-2); font-size: .98rem; }
 .teknik { font-size: .95rem; font-weight: 600; color: var(--metin); }
 
 .iletisim-404 { text-align: center; max-width: 640px; }

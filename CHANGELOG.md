@@ -1,5 +1,13 @@
 # Sürüm Notları
 
+## [1.4.0] - 2026-10-04
+
+### Eklendi
+- Projelerim'e "Akıllı ev ve ev sunucuları": Home Assistant (MQTT, Zigbee, Node-RED),
+  Nextcloud kişisel bulut ve gece yedeği, Pi-hole ile tüm ağda reklam engelleme,
+  Jellyfin ev medya sunucusu ve altyazı çeviri konteyneri.
+- Neler yapabilirim'e "Akıllı ev ve ev sunucusu" kartı, teknolojilere yeni grup.
+
 ## [1.3.0] - 2026-10-04
 
 ### Değişti

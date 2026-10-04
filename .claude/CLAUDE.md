@@ -54,6 +54,14 @@ REFERANS PROJELER (sitede kanıt olarak gösterilir):
   (`Desktop/apartman`; kaynak deposu GİZLİ)
 * BIST AI Analiz (`Desktop/bist-ai-analiz`) — kullanıcı kararı 2026-10-04:
   SİTEDE YER ALMAZ (ad, link, atıf yok; `tools/kontrol.py` denetler).
+* Ev sunucuları (`Desktop/docker yedek/`, kullanıcı isteği 2026-10-04 "yasal
+  çerçevede"): Home Assistant + Mosquitto + Node-RED (+Zigbee), Nextcloud +
+  MariaDB (+ gece rsync yedeği), Pi-hole, Jellyfin + kendi altyazı çeviri
+  konteyneri + Portainer/Heimdall/Watchtower anlatılır. `iptv` klasöründeki
+  torrent/indirme otomasyonu (qBittorrent, Prowlarr, Sonarr, Radarr, Bazarr,
+  Jellyseerr) ve "IPTV" kelimesi SİTEDE YER ALMAZ (5846 — telifli içerik
+  indirme izlenimi). Jellyfin yalnız "kendi arşivim" diye anlatılır. Compose
+  dosyalarındaki şifre, IP, port, disk yolu siteye taşınmaz.
 Projelerdeki sayılar (sürüm, test, tarih) README/CHANGELOG/git'ten
 DOĞRULANARAK yazılır; uydurma/şişirilmiş rakam yazılmaz. Ekran
 görüntüleri canlı siteden alınır (`docs/img/*.webp`), güncellenince

@@ -10,7 +10,7 @@
 <link rel="canonical" href="https://sureyyasayin.github.io/">
 <meta name="theme-color" content="#0f172a">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="style.css?v=1.3.0">
+<link rel="stylesheet" href="style.css?v=1.4.0">
 
 <meta property="og:type" content="profile">
 <meta property="og:locale" content="tr_TR">
@@ -41,7 +41,7 @@
   "knowsAbout": ["Web geliştirme", "Python", "FastAPI", "PostgreSQL", "React", "Docker", "Ağ güvenliği", "KVKK"]
 }
 </script>
-<script src="site.js?v=1.3.0" defer></script>
+<script src="site.js?v=1.4.0" defer></script>
 </head>
 <body>
 <a class="atla" href="#icerik">İçeriğe geç</a>
@@ -128,6 +128,11 @@
         <p class="kanit">Örnek: iki proje aynı Oracle Cloud sunucusunda · <a href="#docker">Docker nedir?</a></p>
       </article>
       <article class="kart">
+        <h3>Akıllı ev ve ev sunucusu</h3>
+        <p>Home Assistant ile akıllı ev, evde kişisel bulut, tüm ağda reklam ve zararlı site engelleme, ev medya sunucusu. Hepsi Docker ile, az elektrik harcayan küçük cihazlarda.</p>
+        <p class="kanit">Örnek: <a href="#proje-ev">Kendi ev sunucularım</a></p>
+      </article>
+      <article class="kart">
         <h3>Veri analizi ve makine öğrenmesi</h3>
         <p>Veri toplama ve temizleme, grafik ve raporlar, makine öğrenmesiyle puanlama ve tahmin modelleri, sonuçların geçmiş veriyle ölçülmesi.</p>
       </article>
@@ -176,6 +181,33 @@
         </ul>
         <p class="teknik">Python · FastAPI · PostgreSQL · Celery · React · TypeScript · Docker</p>
         <a class="dugme dugme-ikinci" href="https://pasys.duckdns.org" target="_blank" rel="noopener">Siteyi aç<span class="gizli"> (yeni sekmede)</span> ↗</a>
+      </div>
+    </article>
+
+    <article class="proje proje-gorselsiz" id="proje-ev">
+      <div class="proje-metin">
+        <p class="etiket">Ev sunucusu · Docker · Kendi kullanımım</p>
+        <h3>Akıllı ev ve ev sunucuları</h3>
+        <p>Evimde, az elektrik harcayan küçük bilgisayarlarda (ör. NVIDIA Jetson, ARM64) Docker ile kurup yönettiğim sistemler. Her parça kendi konteynerinde çalışıyor; bir sorun olursa kendiliğinden yeniden başlıyor.</p>
+        <div class="alt-projeler">
+          <div>
+            <h4>Akıllı ev</h4>
+            <p>Home Assistant ile ışık, priz, sensör ve cihazlar tek panelden yönetiliyor. Cihazlar Mosquitto (MQTT) ve Zigbee üzerinden haberleşiyor, otomasyon senaryoları Node-RED ile görsel olarak kuruluyor.</p>
+          </div>
+          <div>
+            <h4>Kişisel bulut</h4>
+            <p>Nextcloud ve MariaDB ile Google Drive benzeri dosya ve fotoğraf eşitleme. Veriler evde kalıyor, her gece ayrı bir diske otomatik yedekleniyor.</p>
+          </div>
+          <div>
+            <h4>Tüm ağda reklam engelleme</h4>
+            <p>Pi-hole, evdeki bütün cihazlar (telefon, televizyon, bilgisayar) için reklam, takip ve zararlı alan adlarını DNS düzeyinde engelliyor. Cihazlara ayrı program kurmak gerekmiyor.</p>
+          </div>
+          <div>
+            <h4>Ev medya sunucusu</h4>
+            <p>Jellyfin ile kendi video ve fotoğraf arşivimi televizyondan ve telefondan izliyorum. Kendi hazırladığım altyazı çeviri konteyneri İngilizce altyazıyı Türkçeye çeviriyor. Portainer ve Heimdall ile yönetim panelleri, Watchtower ile gece otomatik güncelleme.</p>
+          </div>
+        </div>
+        <p class="teknik">Docker · Home Assistant · MQTT · Zigbee · Node-RED · Nextcloud · MariaDB · Pi-hole · Jellyfin · Portainer · Watchtower · NVIDIA Jetson</p>
       </div>
     </article>
 
@@ -251,6 +283,10 @@
       <ul class="etiketler" aria-label="Entegrasyon ve raporlama">
         <li>PDF raporlar (WeasyPrint)</li><li>Excel aktarımı (openpyxl)</li><li>Telegram botu</li><li>Telefon bildirimi (Web Push)</li><li>QR kod</li><li>Görsel işleme (Pillow)</li><li>Hata izleme (Sentry)</li>
       </ul>
+      <h4 class="etiket-grup">Akıllı ev ve ev sunucusu</h4>
+      <ul class="etiketler" aria-label="Akıllı ev ve ev sunucusu">
+        <li class="one-cikan">Home Assistant</li><li>MQTT (Mosquitto)</li><li>Zigbee</li><li>Node-RED</li><li>Nextcloud</li><li>MariaDB</li><li>Pi-hole</li><li>Jellyfin</li><li>Portainer</li><li>Watchtower</li><li>NVIDIA Jetson (ARM64)</li>
+      </ul>
       <h4 class="etiket-grup">Test ve kod kalitesi</h4>
       <ul class="etiketler" aria-label="Test ve kod kalitesi">
         <li>pytest</li><li>Playwright</li><li>Ruff</li><li>mypy</li><li>ESLint</li>
@@ -315,7 +351,7 @@
 <footer class="alt">
   <div class="kap alt-ic">
     <p>© 2026 Süreyya Sayın. Tüm hakları saklıdır.</p>
-    <p>Bu site çerez kullanmaz, ziyaretçi bilgisi toplamaz. <span class="surum" data-surum="1.3.0">Sürüm 1.3.0</span></p>
+    <p>Bu site çerez kullanmaz, ziyaretçi bilgisi toplamaz. <span class="surum" data-surum="1.4.0">Sürüm 1.4.0</span></p>
   </div>
 </footer>
 </body>
