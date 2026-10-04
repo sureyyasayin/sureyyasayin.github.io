@@ -2,9 +2,10 @@
 (function () {
   "use strict";
 
-  // WhatsApp numarası: boş bırakılırsa düğme gizli kalır.
-  // Örnek biçim (ülke kodu, başında + ve 0 olmadan): "905xxxxxxxxx"
-  var WHATSAPP_NO = "";
+  // Telefon: spam botları HTML'de bulamasın diye parçalardan birleştirilir.
+  // Boş dizi bırakılırsa WhatsApp düğmesi ve telefon satırı gizli kalır.
+  var TELEFON = ["505", "213", "69", "16"];
+  var WHATSAPP_NO = TELEFON.length ? "90" + TELEFON.join("") : "";
 
   // E-posta, spam botları HTML'de bulamasın diye parçalardan birleştirilir.
   var eposta = ["sureyya", "sayin"].join(".") + String.fromCharCode(64) + ["gmail", "com"].join(".");
@@ -26,6 +27,14 @@
       a.rel = "noopener";
       a.hidden = false;
     });
+    var gorunen = "0" + TELEFON.join(" ");
+    document.querySelectorAll(".js-telefon").forEach(function (el) {
+      var a = document.createElement("a");
+      a.href = "tel:+" + WHATSAPP_NO;
+      a.textContent = gorunen;
+      el.replaceChildren(a);
+    });
+    document.querySelectorAll(".js-telefon-satir").forEach(function (el) { el.hidden = false; });
   }
 
   // Tema: sistem tercihi varsayılan; düğmeyle seçilen bu cihazda hatırlanır.

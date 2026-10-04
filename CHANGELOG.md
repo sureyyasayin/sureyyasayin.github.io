@@ -1,5 +1,17 @@
 # Sürüm Notları
 
+## [1.1.0] - 2026-10-04
+
+### Eklendi
+- Hakkımda bölümüne portre fotoğrafı.
+- İletişimde WhatsApp düğmesi ve tıklanınca arayan telefon bağlantısı (numara spam
+  botlarından gizlenir). Konum: Çerkezköy / Tekirdağ.
+- Hobiler: fotoğraf ve bisiklet.
+
+### Değişti
+- Görev geçmişi daha genel anlatıldı: kamuda bilgi teknolojileri yöneticiliği;
+  KGYS-PTS-EDS projelerinde Tekirdağ Çerkezköy Belediyesi ile birlikte çalışma.
+
 ## [1.0.0] - 2026-10-04
 
 ### Eklendi

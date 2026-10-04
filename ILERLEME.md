@@ -1,7 +1,7 @@
 # İlerleme
 
 ## Aktif aşama
-Sürüm 1.0.0 yerelde hazır; GitHub Pages'e ilk yayın kullanıcı onayı bekliyor.
+Yayında: https://sureyyasayin.github.io (GitHub Pages, main /docs). Sürüm 1.1.0.
 
 ## Tamamlananlar (2026-10-04)
 - Kürse CLAUDE.md'si bu projeye uyarlandı (`.claude/CLAUDE.md`).
@@ -22,15 +22,14 @@ Sürüm 1.0.0 yerelde hazır; GitHub Pages'e ilk yayın kullanıcı onayı bekli
 ## Commitler
 - 1fb2b16 ilk sürüm 1.0.0
 - 3791712 Hakkımda: bisiklet hobisi
+- Depo açıldı + ilk push (2026-10-04); Pages kaynağı main /docs yapıldı
+- 1.1.0: portre, telefon/WhatsApp, konum, görev geçmişi genelleştirildi
 
 ## Son kontrol
 `python tools/kontrol.py` → GEÇTİ, 0 hata (2026-10-04).
 
 ## Kullanıcıdan beklenenler
-1. GitHub'da `sureyyasayin.github.io` deposunu açıp push onayı (adımlar `DAGITIM.md`).
-2. WhatsApp düğmesi istenirse numara (`docs/site.js` → `WHATSAPP_NO`).
-3. İstenirse portre fotoğrafı (EGM belgelerinden kesilmeyecek).
-4. Emeklilik yılı (istenirse Hakkımda'ya eklenir).
+1. Emeklilik yılı (kullanıcı yazılmasını istedi, yılı henüz bildirmedi).
 
 ## Sırada
 - Yayından sonra: Lighthouse mobil ölçümü, WhatsApp'ta paylaşım kartı denemesi.

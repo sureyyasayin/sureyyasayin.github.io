@@ -29,7 +29,9 @@ yapıp PARA KAZANMAK (kullanıcı kararı 2026-10-04).
   her satırı test edip sorumluluğunu ben alıyorum" çizgisi korunur.
 * Kişi: KAMUDAN EMEKLİ (Emniyet Genel Müdürlüğü, 1995 – emeklilik). Tanıtım
   dilinde "emekli polis" DENMEZ, "kamudan emekli" denir (kullanıcı kararı
-  2026-10-04); görev/eğitim geçmişi yalnız Hakkımda'da bilgi olarak geçer.
+  2026-10-04). Hakkımda'da görev geçmişi GENEL yazılır ("kamuda bilgi
+  teknolojileri yöneticisi"); birim/rütbe adı verilmez. KGYS-PTS-EDS
+  projesinde Çerkezköy Belediyesi ile birlikte çalışıldığı belirtilir.
   25 yılı aşkın kamu bilgi teknolojileri deneyimi; son görev Çerkezköy
   İlçe Emniyet Müdürlüğü Bilgi Teknolojileri Büro Amiri, KGYS-PTS-EDS
   proje sorumlusu. Kaynak: `cv/` klasörü.
@@ -129,17 +131,19 @@ bilgisi, ev/MERNİS adresi, eş ve çocuk bilgileri, kan grubu, telefon).
   T.C. kimlik no ve imzalar var). Belgeler yalnızca METİN olarak
   (ad + kurum + yıl) listelenir.
 * Sitede ASLA yer almaz: T.C. kimlik no, sicil, ev adresi, aile/çocuk
-  bilgisi, doğum tarihi (gün/ay), silah, kan grubu, sağlık, kişisel
-  telefon (kullanıcı açıkça isteyip WhatsApp'a onay vermedikçe),
+  bilgisi, doğum tarihi (gün/ay), silah, kan grubu, sağlık,
   kurumsal `egm.gov.tr` e-postası.
+* Cep telefonu: kullanıcı kararı 2026-10-04 ile sitede WhatsApp düğmesi +
+  `tel:` bağlantısı olarak YER ALIR; YALNIZCA `site.js` → `TELEFON`
+  dizisinde parçalı durur, HTML'de düz metin olmaz (kontrol aracı denetler).
 * Emniyet / EGM logosu, arması, rozeti KULLANILMAZ; site resmî kurum
   izlenimi vermez. Görev geçmişi özet düzeyde yazılır; birim içi
   hassas ayrıntı (sistem adresleri, kamera konumları vb.) yazılmaz.
 * E-posta HTML kaynağında düz metin olmaz; `site.js` parçalardan
   birleştirir (spam botları). JS kapalıysa okunur ama botun
   ayrıştıramayacağı biçimde gösterilir.
-* Portre fotoğrafı EGM belgelerinden KESİLMEZ; kullanıcı ayrı bir
-  fotoğraf verirse `docs/img/sureyya.webp` (EXIF/GPS silinmiş) eklenir.
+* Portre: kullanıcının verdiği `sureyya.png` → `docs/img/sureyya.webp`
+  (kare, EXIF'siz). Asıl PNG `.gitignore`'da.
 * `tools/kontrol.py` yasak desenleri (11 haneli sayı, `05xx` telefon,
   bilinen adres kelimeleri, `egm.gov.tr`) `docs/` içinde arar.
   Gerçek T.C. no koda/teste YAZILMAZ — yalnız genel desen kullanılır.

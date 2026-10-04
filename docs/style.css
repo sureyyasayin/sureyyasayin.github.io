@@ -156,6 +156,10 @@ h1 { font-size: clamp(2rem, 6vw, 3.4rem); margin-top: .4em; }
 /* Hakkımda */
 .hakkimda { display: grid; gap: 40px; }
 @media (min-width: 900px) { .hakkimda { grid-template-columns: 1.2fr 1fr; gap: 56px; } }
+.kimlik { display: flex; align-items: center; gap: 18px; margin-bottom: 1em; }
+.kimlik h2 { margin: 0; }
+.portre { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; border: 3px solid var(--vurgu-acik); box-shadow: var(--golge); }
+@media (min-width: 640px) { .portre { width: 120px; height: 120px; } }
 .ara-baslik { margin-top: 1.6em; }
 .etiketler { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
 .etiketler li { background: var(--kart); border: 1px solid var(--cizgi); border-radius: 999px; padding: 6px 14px; font-size: .95rem; }
