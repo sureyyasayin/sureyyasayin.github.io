@@ -44,5 +44,6 @@ python tools/kontrol.py
   kopyala; ekran görüntüsü `docs/img/` altına ≤ 160 KB WebP olarak.
 - **Alan adı değişikliği:** yalnız `index.html` (canonical, og:url, og:image),
   `robots.txt`, `sitemap.xml` ve gerekiyorsa `docs/CNAME`.
-- **Sürüm:** `index.html` altbilgisindeki `data-surum` ve görünen metin +
-  `CHANGELOG.md` başlığı birlikte.
+- **Sürüm:** `index.html` altbilgisindeki `data-surum` ve görünen metin,
+  `style.css?v=` / `site.js?v=` değerleri + `CHANGELOG.md` başlığı birlikte
+  (kontrol aracı denetler).

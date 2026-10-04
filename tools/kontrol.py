@@ -90,6 +90,7 @@ def html_denetle(yol: Path) -> None:
         for nitelik in ("href", "src"):
             url = d.get(nitelik)
             if url and yerel_mi(url):
+                url = url.split("?")[0].split("#")[0]
                 hedef = (DOCS / url.lstrip("/")).resolve() if url.startswith("/") else (yol.parent / url).resolve()
                 if not hedef.exists():
                     hata(f"{ad}: bulunamayan dosya '{url}'")
@@ -163,6 +164,8 @@ def surum() -> None:
         hata("Sürüm: index.html data-surum veya CHANGELOG başlığı bulunamadı")
     elif m.group(1) != c.group(1):
         hata(f"Sürüm uyuşmuyor: site {m.group(1)}, CHANGELOG {c.group(1)}")
+    elif re.search(r"\?v=(?!" + re.escape(m.group(1)) + r")[\d.]+", html):
+        hata("Sürüm: style.css / site.js ?v= değeri site sürümüyle aynı değil (önbellek)")
     elif f"Sürüm {m.group(1)}" not in html:
         hata("Sürüm: altbilgideki görünen sürüm data-surum ile aynı değil")
 

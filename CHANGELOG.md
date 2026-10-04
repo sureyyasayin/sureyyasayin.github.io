@@ -1,5 +1,14 @@
 # Sürüm Notları
 
+## [1.3.0] - 2026-10-04
+
+### Değişti
+- "Kullandığım teknolojiler" bölümü gruplara ayrıldı (sunucu ve kurulum, arka uç, veritabanı,
+  ön yüz, güvenlik, entegrasyon, test, kamu deneyimi). Kürse Köyü ve PASYS'te kullanılan
+  teknolojiler eklendi; Docker ayrı ve öne çıkan etiket oldu.
+- Güncellemeden sonra ziyaretçilerin tarayıcısı eski görünümü göstermesin diye stil ve
+  betik dosyalarına sürüm numarası eklendi.
+
 ## [1.2.1] - 2026-10-04
 
 ### Değişti

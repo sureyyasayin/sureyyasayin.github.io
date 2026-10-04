@@ -166,6 +166,9 @@ h1 { font-size: clamp(2rem, 6vw, 3.4rem); margin-top: .4em; }
 .portre { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; border: 3px solid var(--vurgu-acik); box-shadow: var(--golge); }
 @media (min-width: 640px) { .portre { width: 120px; height: 120px; } }
 .ara-baslik { margin-top: 1.6em; }
+.teknoloji-not { color: var(--metin-2); font-size: .98rem; }
+.etiket-grup { font-size: .9rem; text-transform: uppercase; letter-spacing: .06em; color: var(--vurgu); margin: 1.2em 0 .6em; }
+.etiketler li.one-cikan { border-color: var(--vurgu-acik); font-weight: 700; }
 .etiketler { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px; }
 .etiketler li { background: var(--kart); border: 1px solid var(--cizgi); border-radius: 999px; padding: 6px 14px; font-size: .95rem; }
 .yan h3 { margin-top: 1.4em; }
