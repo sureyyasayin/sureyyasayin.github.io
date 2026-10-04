@@ -30,8 +30,8 @@ yapıp PARA KAZANMAK (kullanıcı kararı 2026-10-04).
 * Kişi: KAMUDAN EMEKLİ (Emniyet Genel Müdürlüğü, 1995 – emeklilik). Tanıtım
   dilinde "emekli polis" DENMEZ, "kamudan emekli" denir (kullanıcı kararı
   2026-10-04). Hakkımda'da görev geçmişi GENEL yazılır ("kamuda bilgi
-  teknolojileri yöneticisi"); birim/rütbe adı verilmez. KGYS-PTS-EDS
-  projesinde Çerkezköy Belediyesi ile birlikte çalışıldığı belirtilir.
+  teknolojileri yöneticisi"); birim/rütbe adı verilmez. KGYS ve EDS
+  projelerinin Tekirdağ Çerkezköy Belediyesi ile ORTAKLAŞA yapıldığı belirtilir.
   25 yılı aşkın kamu bilgi teknolojileri deneyimi; son görev Çerkezköy
   İlçe Emniyet Müdürlüğü Bilgi Teknolojileri Büro Amiri, KGYS-PTS-EDS
   proje sorumlusu. Kaynak: `cv/` klasörü.

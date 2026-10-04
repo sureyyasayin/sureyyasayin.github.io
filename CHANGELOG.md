@@ -1,5 +1,10 @@
 # Sürüm Notları
 
+## [1.1.1] - 2026-10-04
+
+### Düzeltildi
+- KGYS ve EDS projelerinin Tekirdağ Çerkezköy Belediyesi ile ortaklaşa yapıldığı açıkça yazıldı.
+
 ## [1.1.0] - 2026-10-04
 
 ### Eklendi
