@@ -1,0 +1,10 @@
+# HASSAS: kimlik no, adres, aile bilgisi içeren belgeler — ASLA git'e girmez
+cv/
+
+# Yerel / geçici
+.claude/settings.local.json
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+*.tmp

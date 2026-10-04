@@ -1,0 +1,13 @@
+# Sürüm Notları
+
+## [1.0.0] - 2026-10-04
+
+### Eklendi
+- Tek sayfalık kişisel site: Giriş, Neler yapabilirim (her yetenek gerçek bir projeye
+  bağlı), Projelerim (Kürse Köyü, PASYS), Nasıl çalışırım, Hakkımda (eğitim, kurslar,
+  ödüller), İletişim (e-posta, GitHub, YouTube, Instagram, Facebook).
+- Açık / koyu tema, telefona uygun menü, WhatsApp'ta düzgün görünen paylaşım kartı.
+- E-posta adresi spam botlarından gizlenerek gösterilir; WhatsApp düğmesi numara
+  girilince kendiliğinden açılır.
+- Site çerez, takip kodu ve dış kaynak kullanmaz.
+- `tools/kontrol.py`: bağlantı, görsel, SEO ve kişisel veri sızıntısı kontrolü.
