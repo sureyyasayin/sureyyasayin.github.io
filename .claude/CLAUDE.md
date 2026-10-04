@@ -171,7 +171,9 @@ bilgisi, ev/MERNİS adresi, eş ve çocuk bilgileri, kan grubu, telefon).
   telif/kaynak kod devri, KVKK veri işleyen sözleşmesi). Müşteri
   sitelerinde KVKK aydınlatma metni ve çerez politikası teslim standardıdır.
 * SİTE BİR YETENEK VİTRİNİDİR, satış sayfası DEĞİLDİR (kullanıcı kararı
-  2026-10-04): fiyat, teklif, "ücretsiz görüşme", maliyet dili kullanılmaz.
+  2026-10-04): fiyat, teklif, "ücretsiz görüşme", maliyet dili kullanılmaz;
+  sunucular için de "ücretsiz / bedava / masrafsız" DENMEZ, "aynı sunucuda"
+  denir (kontrol aracı denetler).
   Amaç: bakan kişi "bu iş bu kişiye yaptırılabilir" desin. Her yetenek
   kartı mümkünse gerçek bir projeye ("Örnek: ...") bağlanır.
 

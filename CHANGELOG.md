@@ -1,5 +1,10 @@
 # Sürüm Notları
 
+## [1.2.1] - 2026-10-04
+
+### Değişti
+- "Ücretsiz sunucu" ifadeleri kaldırıldı; projeler için "aynı sunucuda" deniyor.
+
 ## [1.2.0] - 2026-10-04
 
 ### Eklendi

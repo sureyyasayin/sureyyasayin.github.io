@@ -31,6 +31,7 @@ YASAK_DESENLER = [
     (r"(?i)çerkezköy'?(de|da)(yım|yim)", "yaşanılan yer Saray / Tekirdağ olarak yazılır"),
     (r"(?i)sicil(i|\s*no)?\s*[:=]", "sicil numarası"),
     (r"(?i)kan\s+grubu|silah[ıi]\s*:", "hassas kişisel bilgi"),
+    (r"(?i)ücretsiz|bedava|masrafsız", "ücret/ücretsiz dili (kullanıcı kararı 2026-10-04: yazılmaz)"),
     (r"(?i)\bBIST\b|bist-ai", "BIST projesi (kullanıcı kararı 2026-10-04: sitede yer almaz)"),
 ]
 DIS_KAYNAK = re.compile(
