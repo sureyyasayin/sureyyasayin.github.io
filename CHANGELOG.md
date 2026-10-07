@@ -1,5 +1,10 @@
 # Sürüm Notları
 
+## [1.4.1] - 2026-10-07
+
+### Değişti
+- Telefon numarası sayfadan kaldırıldı; iletişim yalnızca e-posta ve WhatsApp düğmesi.
+
 ## [1.4.0] - 2026-10-04
 
 ### Eklendi

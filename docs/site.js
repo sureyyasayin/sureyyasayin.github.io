@@ -2,8 +2,8 @@
 (function () {
   "use strict";
 
-  // Telefon: spam botları HTML'de bulamasın diye parçalardan birleştirilir.
-  // Boş dizi bırakılırsa WhatsApp düğmesi ve telefon satırı gizli kalır.
+  // WhatsApp numarası: sayfada GÖSTERİLMEZ, yalnız düğmenin bağlantısında kullanılır
+  // (kullanıcı kararı 2026-10-07). Boş dizi bırakılırsa WhatsApp düğmesi gizli kalır.
   var TELEFON = ["505", "213", "69", "16"];
   var WHATSAPP_NO = TELEFON.length ? "90" + TELEFON.join("") : "";
 
@@ -27,14 +27,6 @@
       a.rel = "noopener";
       a.hidden = false;
     });
-    var gorunen = "0" + TELEFON.join(" ");
-    document.querySelectorAll(".js-telefon").forEach(function (el) {
-      var a = document.createElement("a");
-      a.href = "tel:+" + WHATSAPP_NO;
-      a.textContent = gorunen;
-      el.replaceChildren(a);
-    });
-    document.querySelectorAll(".js-telefon-satir").forEach(function (el) { el.hidden = false; });
   }
 
   // Tema: sistem tercihi varsayılan; düğmeyle seçilen bu cihazda hatırlanır.

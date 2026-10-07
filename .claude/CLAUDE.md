@@ -147,9 +147,10 @@ bilgisi, ev/MERNİS adresi, eş ve çocuk bilgileri, kan grubu, telefon).
 * Konum YALNIZCA "Saray / Tekirdağ" (ilçe düzeyi) yazılır; EV ADRESİ
   (mahalle, cadde, site, kapı no) ASLA yazılmaz (kullanıcı kararı 2026-10-04).
   Çerkezköy yalnız proje/ödül bilgisinde geçer, yaşanılan yer olarak yazılmaz.
-* Cep telefonu: kullanıcı kararı 2026-10-04 ile sitede WhatsApp düğmesi +
-  `tel:` bağlantısı olarak YER ALIR; YALNIZCA `site.js` → `TELEFON`
-  dizisinde parçalı durur, HTML'de düz metin olmaz (kontrol aracı denetler).
+* Cep telefonu numarası sayfada GÖRÜNMEZ (kullanıcı kararı 2026-10-07);
+  iletişim yalnızca e-posta + WhatsApp düğmesi. Numara YALNIZCA `site.js` →
+  `TELEFON` dizisinde parçalı durur (wa.me bağlantısı için), HTML'de olmaz
+  (kontrol aracı denetler).
 * Emniyet / EGM logosu, arması, rozeti KULLANILMAZ; site resmî kurum
   izlenimi vermez. Görev geçmişi özet düzeyde yazılır; birim içi
   hassas ayrıntı (sistem adresleri, kamera konumları vb.) yazılmaz.
