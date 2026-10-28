@@ -32,6 +32,7 @@ Yayında: https://sureyyasayin.github.io (GitHub Pages, main /docs). Sürüm 1.4
 - 1.3.0: teknolojiler gruplandı (iki projeden doğrulanmış liste), Docker öne çıktı; css/js ?v= önbellek kırıcı
 - 1.4.0: akıllı ev ve ev sunucuları (Home Assistant, Nextcloud, Pi-hole, Jellyfin); torrent/IPTV ve yerel IP yasak kuralı
 - 1.4.1 (2026-10-07): telefon numarası sayfadan kaldırıldı; iletişim e-posta + WhatsApp
+- 2026-10-29: Google Search Console doğrulama dosyası `docs/googlef5187027f5eb942f.html` eklendi
 - Pages kaynağı /docs olarak düzeltildi; canlı sitede 1.1.3 doğrulandı (WhatsApp, e-posta, foto, taşma yok)
 
 ## Son kontrol
@@ -41,6 +42,7 @@ Yayında: https://sureyyasayin.github.io (GitHub Pages, main /docs). Sürüm 1.4
 Yok.
 
 ## Sırada
+- Search Console'da "Doğrula" + `sitemap.xml` gönderimi (kullanıcı yapar).
 - Yayından sonra: Lighthouse mobil ölçümü, WhatsApp'ta paylaşım kartı denemesi.
 - Yeni proje bitince `#projeler`'e kart + `docs/img/` ekran görüntüsü.
 

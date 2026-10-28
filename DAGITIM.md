@@ -66,3 +66,10 @@ güncellemek gerekir; `github.io` adresi bakım istemez.
 
 DNS'te `www` için CNAME → `sureyyasayin.github.io`, kök alan için GitHub'ın
 4 A kaydı (185.199.108–111.153). Sonra 4. maddedeki 3–5 adımları.
+
+## 6. Google Search Console doğrulaması
+
+`docs/googlef5187027f5eb942f.html` Google'ın site sahipliği doğrulama dosyasıdır
+(2026-10-29). **Silme, adını ve içeriğini değiştirme**; silinirse Search Console
+doğrulaması düşer. Doğrulandıktan sonra Search Console → Site haritaları →
+`sitemap.xml` gönderilir.
