@@ -1,7 +1,7 @@
 # İlerleme
 
 ## Aktif aşama
-Yayında: https://sureyyasayin.github.io (GitHub Pages, main /docs). Sürüm 1.4.1.
+Yayında: https://sureyyasayin.github.io (GitHub Pages, main /docs). Sürüm 1.5.0.
 
 ## Tamamlananlar (2026-10-04)
 - Kürse CLAUDE.md'si bu projeye uyarlandı (`.claude/CLAUDE.md`).
@@ -33,10 +33,11 @@ Yayında: https://sureyyasayin.github.io (GitHub Pages, main /docs). Sürüm 1.4
 - 1.4.0: akıllı ev ve ev sunucuları (Home Assistant, Nextcloud, Pi-hole, Jellyfin); torrent/IPTV ve yerel IP yasak kuralı
 - 1.4.1 (2026-10-07): telefon numarası sayfadan kaldırıldı; iletişim e-posta + WhatsApp
 - 2026-10-29: Google Search Console doğrulama dosyası `docs/googlef5187027f5eb942f.html` eklendi
+- 1.5.0 (2026-10-29): Elif Sayın akademik kişisel sitesi referans olarak eklendi (aile bağı yazılmadı); canlı proje sayısı 3
 - Pages kaynağı /docs olarak düzeltildi; canlı sitede 1.1.3 doğrulandı (WhatsApp, e-posta, foto, taşma yok)
 
 ## Son kontrol
-`python tools/kontrol.py` → GEÇTİ, 0 hata (2026-10-04).
+`python tools/kontrol.py` → GEÇTİ, 0 hata (2026-10-29); 375 px ve masaüstü tarayıcı kontrolü yapıldı.
 
 ## Kullanıcıdan beklenenler
 Yok.

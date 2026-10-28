@@ -52,6 +52,9 @@ REFERANS PROJELER (sitede kanıt olarak gösterilir):
   (`Desktop/koy`; kaynak deposu GİZLİ, kod linki verilmez)
 * PASYS Apartman & Site Yönetim Sistemi — https://pasys.duckdns.org
   (`Desktop/apartman`; kaynak deposu GİZLİ)
+* Elif Sayın akademik kişisel sitesi — https://elif-sayin.github.io (kullanıcı
+  isteği 2026-10-29). "Kişisel ve tanıtım siteleri" yeteneğinin örneği. AİLE
+  BAĞI SİTEDE YAZILMAZ (m.6 aile bilgisi kuralı); yalnız yapılan iş anlatılır.
 * BIST AI Analiz (`Desktop/bist-ai-analiz`) — kullanıcı kararı 2026-10-04:
   SİTEDE YER ALMAZ (ad, link, atıf yok; `tools/kontrol.py` denetler).
 * Ev sunucuları (`Desktop/docker yedek/`, kullanıcı isteği 2026-10-04 "yasal

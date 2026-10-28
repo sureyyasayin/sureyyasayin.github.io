@@ -1,5 +1,11 @@
 # Sürüm Notları
 
+## [1.5.0] - 2026-10-29
+
+### Eklendi
+- Projelerim'e Elif Sayın akademik kişisel sitesi (iki dilli, açık/koyu tema), ekran görüntüsüyle.
+- "Kişisel ve tanıtım siteleri" yeteneğine bu siteye bağlantı; canlı proje sayısı 3.
+
 ## [1.4.1] - 2026-10-07
 
 ### Değişti
