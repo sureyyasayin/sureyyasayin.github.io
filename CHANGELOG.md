@@ -1,5 +1,10 @@
 # Sürüm Notları
 
+## [1.5.2] - 2026-10-29
+
+### Değişti
+- Sosyal medya bağlantıları sadeleştirildi: yalnız GitHub ve LinkedIn (YouTube, Instagram, Facebook kaldırıldı).
+
 ## [1.5.1] - 2026-10-29
 
 ### Eklendi

@@ -49,7 +49,8 @@ yapıp PARA KAZANMAK (kullanıcı kararı 2026-10-04).
   abartılı ifade YAZILMAZ — Docker sanal makine değil konteynerdir)
   → Hakkımda (eğitim,
   kurslar, ödüller) → İletişim (e-posta, WhatsApp isteğe bağlı, sosyal
-  medya: GitHub, YouTube, Instagram, Facebook).
+  medya: YALNIZ GitHub + LinkedIn — kullanıcı kararı 2026-10-29; YouTube,
+  Instagram, Facebook kaldırıldı).
 
 REFERANS PROJELER (sitede kanıt olarak gösterilir):
 * Kürse Köyü Web Portalı — https://kursekoyu.duckdns.org
