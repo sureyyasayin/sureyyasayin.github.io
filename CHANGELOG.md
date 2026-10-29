@@ -1,5 +1,10 @@
 # Sürüm Notları
 
+## [1.6.0] - 2026-10-29
+
+### Eklendi
+- Akıllı ev ve ev sunucuları projesine Home Assistant kontrol paneli ekran görüntüsü (kişisel bilgiler gizlendi; panel adresi sitede yok).
+
 ## [1.5.2] - 2026-10-29
 
 ### Değişti

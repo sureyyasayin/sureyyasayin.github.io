@@ -70,6 +70,10 @@ REFERANS PROJELER (sitede kanıt olarak gösterilir):
   Jellyseerr) ve "IPTV" kelimesi SİTEDE YER ALMAZ (5846 — telifli içerik
   indirme izlenimi). Jellyfin yalnız "kendi arşivim" diye anlatılır. Compose
   dosyalarındaki şifre, IP, port, disk yolu siteye taşınmaz.
+  Home Assistant panel görüntüsü (`img/akilli-ev.webp`, 2026-10-29): HA'nın
+  internet adresi sitede YAZILMAZ/link verilmez; görüntü yenilenirse aile
+  üyesi adı, evde/dışarıda durumu, harita/konum, kamera, kullanıcı adı
+  kadraja alınmaz veya bulanıklaştırılır.
 Projelerdeki sayılar (sürüm, test, tarih) README/CHANGELOG/git'ten
 DOĞRULANARAK yazılır; uydurma/şişirilmiş rakam yazılmaz. Ekran
 görüntüleri canlı siteden alınır (`docs/img/*.webp`), güncellenince
