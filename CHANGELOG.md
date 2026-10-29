@@ -1,5 +1,10 @@
 # Sürüm Notları
 
+## [1.5.1] - 2026-10-29
+
+### Eklendi
+- Eğitim: Atatürk Üniversitesi Web Tasarımı ve Kodlama önlisans programı (2026, devam ediyor).
+
 ## [1.5.0] - 2026-10-29
 
 ### Eklendi

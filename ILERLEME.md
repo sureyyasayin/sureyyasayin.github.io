@@ -1,7 +1,7 @@
 # İlerleme
 
 ## Aktif aşama
-Yayında: https://sureyyasayin.github.io (GitHub Pages, main /docs). Sürüm 1.5.0.
+Yayında: https://sureyyasayin.github.io (GitHub Pages, main /docs). Sürüm 1.5.1.
 
 ## Tamamlananlar (2026-10-04)
 - Kürse CLAUDE.md'si bu projeye uyarlandı (`.claude/CLAUDE.md`).
@@ -35,6 +35,8 @@ Yayında: https://sureyyasayin.github.io (GitHub Pages, main /docs). Sürüm 1.5
 - 2026-10-29: Google Search Console doğrulama dosyası `docs/googlef5187027f5eb942f.html` eklendi
 - 1.5.0 (2026-10-29): Elif Sayın akademik kişisel sitesi referans olarak eklendi (aile bağı yazılmadı); canlı proje sayısı 3
 - 2026-10-29: Search Console mülkü `https://sureyyasayin.github.io/` (URL ön eki) eklendi ve HTML dosyasıyla DOĞRULANDI; `sitemap.xml` gönderildi. Not: hesapta yanlış yazılmış doğrulanmamış mülk `https://sureyya.sayin.github.io/` duruyor (zararsız, kullanıcı isterse kaldırır)
+- 1.5.1 (2026-10-29): Eğitim — Atatürk Üni. Web Tasarımı ve Kodlama önlisans (2026–, devam); belge/kimlik bilgisi alınmadı
+- 2026-10-29: LinkedIn profili güncellendi (başlık, hakkında, serbest deneyim, 3 proje); bekleyen: EGM deneyim tekrarı silme onayı, LinkedIn iletişimde ev adresi, kapak fotoğrafı, hizmetler
 - Pages kaynağı /docs olarak düzeltildi; canlı sitede 1.1.3 doğrulandı (WhatsApp, e-posta, foto, taşma yok)
 
 ## Son kontrol

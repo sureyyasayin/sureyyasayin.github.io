@@ -35,6 +35,10 @@ yapıp PARA KAZANMAK (kullanıcı kararı 2026-10-04).
   25 yılı aşkın kamu bilgi teknolojileri deneyimi; son görev Çerkezköy
   İlçe Emniyet Müdürlüğü Bilgi Teknolojileri Büro Amiri, KGYS-PTS-EDS
   proje sorumlusu. Kaynak: `cv/` klasörü.
+* Eğitim (2026-10-29, YÖK öğrenci belgesi): Atatürk Üniversitesi Açık ve Uzaktan
+  Öğretim Fakültesi, Bilgisayar Teknolojileri / Web Tasarımı ve Kodlama önlisans
+  (açıköğretim, 2 yıl), kayıt 12.10.2026, 1. sınıf. Belgenin kendisi ve içindeki
+  kimlik bilgileri siteye/depoya ALINMAZ.
 * Çalışma biçimi: SERBEST (freelance), evden / uzaktan (kullanıcı bilgisi
   2026-10-04). Sitede "freelance, uzaktan çalışıyorum" vurgusu korunur.
 * Hedef kitle: köy/mahalle/dernekler, apartman ve site yöneticileri,
